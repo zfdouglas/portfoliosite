@@ -1,0 +1,140 @@
+.AboutDesk {
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.collage {
+  width: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.collageImage {
+  width: 100%;
+  height: 100%;
+  margin: 0.2em 0;
+}
+.aboutText {
+  margin-left: 1em;
+  width: 50vw;
+  text-align: left;
+}
+.headText {
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+}
+.heroBanner {
+  width: 100%;
+  background-color: rgba(255, 177, 8, 0.644);
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.bioText {
+  font-size: 1.2em;
+}
+.heroBannerExtrasIns h1 {
+  margin: 0;
+}
+
+.heroBannerPersonal {
+  width: 100%;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  vertical-align: middle;
+}
+.heroBottom {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(235, 235, 235, 0.644);
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+}
+.heroBannerPersonal {
+  width: 100%;
+  align-content: center;
+}
+.skillHolder {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.skillHolder div {
+  width: 30%;
+  padding: 0.5em;
+  border-radius: 10px;
+  font-size: 1.2em;
+  align-items: center;
+}
+.skillHolder p {
+  background-color: rgba(235, 235, 235, 0.644);
+  width: 40%;
+  margin: auto;
+  margin-top: 0.5em;
+  border-radius: 10px;
+  align-self: center;
+  justify-content: center;
+}
+.socialIcons i {
+  margin: 1em;
+}
+.socialIcons i:hover {
+  margin: 1em;
+  color: orange;
+}
+.heroBannerPersonal h1 {
+  width: 100%;
+}
+
+@media (max-width: 770px) {
+  .skillHolder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .skillHolder div {
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 1.2em;
+    align-items: center;
+  }
+  .skillHolder p {
+    width: 40%;
+  }
+  .heroBottom {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: row;
+    position: static;
+  }
+  .heroBottom div {
+    width: 100%;
+    height: auto;
+  }
+  .heroBottom i {
+    margin: 0 1em;
+  }
+}
+@media (max-width: 514px) {
+  .aboutText {
+    width: 100vw;
+  }
+  .headText {
+    text-align: center;
+    align-self: center;
+  }
+}

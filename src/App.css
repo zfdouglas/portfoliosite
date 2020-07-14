@@ -1,38 +1,204 @@
+html,
+body,
+#root {
+  height: 100vh !important;
+  background-image: url(./leafbackground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#app {
+  height: 100%;
+}
 .App {
+  height: 100%;
+  width: 100%;
   text-align: center;
+  font-family: "Staatliches", cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.appLogoWelcome {
+  height: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.appNav {
+  margin-left: auto;
   display: flex;
-  flex-direction: column;
+  margin-right: 0;
+  overflow-x: hidden;
+}
+.appNav div {
+  display: inline-block;
+  margin: auto 1em;
+}
+.appNav div:hover {
+  display: inline-block;
+  margin: auto 1em;
+  color: orange;
+  cursor: pointer;
+}
+.appHeader {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2.2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.appFooter {
+  color: #282c34;
+  position: fixed;
+  left: 0;
+  bottom: 3%;
+  width: 100%;
+  text-align: center;
+}
+.appHeaderWelcome {
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: calc(10px + 2.2vmin);
+  color: #282c34;
+}
+.logoDiv {
+  height: 100%;
+}
+.appNavWelcome {
+  color: #282c34;
+  margin-left: auto;
+  margin-right: 0;
+}
+.appNavWelcome div {
+  color: #282c34;
+  display: inline-block;
+  margin: auto 1em;
+}
+.appNavWelcome div:hover {
+  display: inline-block;
+  margin: auto 1em;
+  color: orange;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.appFooterWelcome {
+  color: #282c34;
+  position: fixed;
+  left: 0;
+  bottom: 3%;
+  width: 100%;
+  text-align: center;
+}
+.appLogoWelcome {
+  color: #282c34;
+  max-width: 7vw;
+  margin-left: 1vw;
+  align-self: center;
+  justify-self: center;
+}
+
+.appBannerWelcome {
+  flex-direction: column;
+  height: 50vh;
+  margin-top: 15vh;
+  width: 100vw;
+  background-color: rgba(255, 177, 8, 0.644);
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.appBannerWelcomeNameP {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  font-family: "Staatliches", cursive;
+  width: 70%;
+  border-top: 0.1em solid rgba(255, 255, 255, 0.7);
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.7);
+  font-size: 5vw;
+}
+
+.appBannerWelcomeJobP {
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.1em;
+  margin-top: 2vh;
+  font-size: 3vw;
+}
+
+.appBackgroundWelcome {
+  /* background-image: url(./leafbackground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%; */
+}
+.appBannerWelcomeButton {
+  margin-top: 4vh;
+  border: none;
+  width: 15vw;
+  height: 5vh;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: rgba(255, 177, 8, 8);
+  letter-spacing: 0.05em;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.appBannerWelcomeButton:hover {
+  margin-top: 4vh;
+  border: none;
+  width: 15vw;
+  height: 5vh;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.05em;
+  border-radius: 10px;
+  background-color: rgba(255, 177, 8, 0.644);
+}
+@media (max-width: 1024px) {
+  .appBackgroundWelcome {
+    background-image: url(./leafbackgroundsmall.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
-  to {
-    transform: rotate(360deg);
+  .appBannerWelcomeButton {
+    margin-top: 4vh;
+    width: 30vw;
+    height: 7vh;
+    font-size: 3vw;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .appBannerWelcomeButton:hover {
+    margin-top: 4vh;
+    border: none;
+    width: 30vw;
+    height: 7vh;
+    font-size: 3vw;
+    font-weight: 600;
+  }
+}
+@media (max-width: 700px) {
+  .appBannerWelcomeNameP {
+    font-size: 8vw;
+    width: 90%;
+  }
+  .appBannerWelcomeJobP {
+    font-size: 5vw;
+    width: 90%;
+  }
+  .appFooterWelcome {
+    font-size: 0.3em;
   }
 }
