@@ -1,7 +1,7 @@
 import React from "react";
 import "./ResumeDesk.css";
-import seal from "./umassseal.png";
-import JobTable from "./JobTable.tsx";
+import seal from "../img/umassseal.png";
+import JobTable from "../Job/JobTable.tsx";
 
 function ResumeDesk() {
   return (

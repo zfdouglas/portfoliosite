@@ -29,7 +29,7 @@
   border-radius: 10px;
   background: rgb(182, 98, 30);
   color: white;
-  cursor: pointer;
+  cursor: default;
 }
 .NameHolder {
   border-top: 3px solid orange;

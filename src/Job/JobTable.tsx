@@ -1,5 +1,5 @@
 import * as React from "react";
-import JobRow from "./JobRow";
+import JobRow from "../Job/JobRow";
 function JobTable() {
   let se2Deets = ["Getting", "Good", "At Stuff"];
   return (

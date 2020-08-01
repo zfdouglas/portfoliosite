@@ -2,7 +2,7 @@ html,
 body,
 #root {
   height: 100vh !important;
-  background-image: url(./leafbackground.jpg);
+  background-image: url(../img/leafbackground.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -66,6 +66,9 @@ body,
 }
 .logoDiv {
   height: 100%;
+}
+.logoDiv:hover {
+  cursor: pointer;
 }
 .appNavWelcome {
   color: #282c34;
@@ -166,7 +169,7 @@ body,
 }
 @media (max-width: 1024px) {
   .appBackgroundWelcome {
-    background-image: url(./leafbackgroundsmall.jpg);
+    background-image: url(../img/leafbackgroundsmall.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

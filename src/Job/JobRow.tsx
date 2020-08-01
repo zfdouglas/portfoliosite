@@ -1,8 +1,8 @@
 import * as React from "react";
-import sovos from "./sovos.png";
-import eco from "./thumbnail.png";
-import lbd from "./lblogolong2.png";
-import caret from "./caret.svg";
+import sovos from "../img/sovos.png";
+import eco from "../img/thumbnail.png";
+import lbd from "../img/lblogolong2.png";
+import caret from "../img/caret.svg";
 
 interface JobRowProps {
   hirer: string;

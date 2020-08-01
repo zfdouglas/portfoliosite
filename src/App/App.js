@@ -1,7 +1,8 @@
 import React from "react";
-import logo from "./realzfd3.png";
-import AboutDesk from "./AboutDesk.js";
-import ResumeDesk from "./ResumeDesk.js";
+import logo from "../img/realzfd3.png";
+import AboutDesk from "../AboutDesk/AboutDesk.js";
+import ResumeDesk from "../Resume/ResumeDesk.js";
+import ContactDesk from "../Contact/ContactDesk.tsx";
 import "./App.css";
 
 class App extends React.Component {
@@ -45,7 +46,15 @@ class App extends React.Component {
               Resume
             </div>
             <div>Portfolio</div>
-            <div>Contact</div>
+            <div
+              onClick={() => {
+                this.setState({
+                  view: "contact",
+                });
+              }}
+            >
+              Contact
+            </div>
           </div>
         </header>
         {this.state.view === "welcome" && (
@@ -53,7 +62,16 @@ class App extends React.Component {
             <div className="appBannerWelcome">
               <div className="appBannerWelcomeNameP">Zachary Finn Douglas</div>
               <div className="appBannerWelcomeJobP">Software Engineer</div>
-              <button className="appBannerWelcomeButton">Contact Me</button>
+              <button
+                className="appBannerWelcomeButton"
+                onClick={() => {
+                  this.setState({
+                    view: "contact",
+                  });
+                }}
+              >
+                Contact Me
+              </button>
             </div>
             <footer className="appFooterWelcome">
               Lovingly Crafted by ZFDouglas
@@ -62,6 +80,7 @@ class App extends React.Component {
         )}
         {this.state.view === "resume" && <ResumeDesk />}
         {this.state.view === "about" && <AboutDesk />}
+        {this.state.view === "contact" && <ContactDesk />}
       </div>
     );
   }

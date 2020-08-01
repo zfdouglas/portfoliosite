@@ -1,5 +1,5 @@
 import React from "react";
-import me from "./mecircle.png";
+import me from "../img/mecircle.png";
 import "./AboutDesk.css";
 
 function AboutDesk() {

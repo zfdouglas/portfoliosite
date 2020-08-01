@@ -1,0 +1,56 @@
+.ContactDesk {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.MainDiv {
+  width: 70vw;
+  height: 40vh;
+  margin-top: 10vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.ContactCard {
+  width: 33vh;
+  flex-wrap: wrap;
+  height: 100%;
+  display: inline-block;
+  background-color: rgba(235, 235, 235, 0.644);
+  margin: 1vw;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.ContactCard h1 {
+  background-color: orange;
+  margin: 0;
+  padding: 2vh;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  color: rgba(235, 235, 235);
+  letter-spacing: 0.1em;
+}
+
+.ContactCard i {
+  padding-top: 25%;
+  align-content: center;
+}
+.Data {
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.1s;
+  font-size: 1.1em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.Data:hover {
+  transform: scale(1.03);
+  color: darkorange;
+}

@@ -1,5 +1,5 @@
 import * as React from "react";
-import sovos from "./sovos.png";
+import sovos from "../img/sovos.png";
 
 function JobRowRev(props) {
   function logoChooser(hirer: string) {
