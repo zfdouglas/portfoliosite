@@ -17,6 +17,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["./src/**/*.ts", "src/JobTable.tsx"],
+  "include": ["./src/**/*.tsx"],
   "exclude": ["node_modules"]
 }

@@ -205,3 +205,12 @@ body,
     font-size: 0.3em;
   }
 }
+@media (max-width: 410px) {
+  .logoDiv {
+    visibility: hidden;
+    width: 0%;
+  }
+  .appNavWelcome {
+    width: 100vw;
+  }
+}

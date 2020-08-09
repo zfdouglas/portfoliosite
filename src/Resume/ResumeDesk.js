@@ -39,36 +39,38 @@ function ResumeDesk() {
           <h2>Experience</h2>
           <JobTable />
         </div>
-        <div className="Education">
-          <h2>Education</h2>
-          <div className="UmassImage">
-            <img
-              src={seal}
-              alt="Seal for University of Massachusetts Amherst"
-            />
+        <div className="MiscInfo">
+          <div className="Education">
+            <h2>Education</h2>
+            <div className="UmassImage">
+              <img
+                src={seal}
+                alt="Seal for University of Massachusetts Amherst"
+              />
+            </div>
+            <div className="UmassInfo">
+              <p>
+                <h4>University of Massachusetts Amherst</h4>
+              </p>
+              <p>Bachelors of Science, Cum Laude</p>
+              <p>2012-2016</p>
+            </div>
           </div>
-          <div className="UmassInfo">
-            <p>
-              <h4>University of Massachusetts Amherst</h4>
-            </p>
-            <p>Bachelors of Science, Cum Laude</p>
-            <p>2012-2016</p>
-          </div>
-        </div>
-        <div className="Education">
-          <h2>Research</h2>
-          <div className="UmassImage">
-            <img
-              src={seal}
-              alt="Seal for University of Massachusetts Amherst"
-            />
-          </div>
-          <div className="UmassInfo">
-            <p>
-              <h4>University of Massachusetts Amherst</h4>
-            </p>
-            <p>Bachelors of Science, Cum Laude</p>
-            <p>2012-2016</p>
+          <div className="Education">
+            <h2>Research</h2>
+            <div className="UmassImage">
+              <img
+                src={seal}
+                alt="Seal for University of Massachusetts Amherst"
+              />
+            </div>
+            <div className="UmassInfo">
+              <p>
+                <h4>Research Assistant</h4>
+              </p>
+              <p>Human Relations Lab</p>
+              <p>2015-2016</p>
+            </div>
           </div>
         </div>
       </div>

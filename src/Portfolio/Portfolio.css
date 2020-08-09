@@ -1,0 +1,129 @@
+.PortfolioDesk {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.PortfolioHeadline {
+  width: 100%;
+}
+.PortfolioHeadline div {
+  font-size: 10vh;
+  color: orange;
+  letter-spacing: 0.2em;
+}
+.PortfolioItem {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  background-color: rgba(231, 231, 231, 0.562);
+  min-height: 33vh;
+  margin-bottom: 5vh;
+}
+
+.PortfolioItemImageContainer {
+  justify-self: left;
+  width: 30vw;
+  height: 40vh;
+  display: inline-block;
+  margin: 2vh 4vw;
+}
+.PortfolioItemImage {
+  object-fit: cover;
+  object-position: 0 20%;
+  width: 30vw;
+  height: 40vh;
+}
+.PortfolioItemInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 2vw;
+  text-align: left;
+}
+.PortfolioItemInfo .Header {
+  font-size: 3vh;
+  color: orange;
+}
+
+.PortfolioItemInfo div:not(.ItemButton) {
+  margin: 1vh auto;
+  width: 100%;
+}
+.ItemTitle {
+  font-size: 7vh;
+  margin: 2vh auto;
+}
+
+.ItemButton {
+  width: 15vw;
+  height: 7vh;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.ItemButton div {
+  text-align: center;
+}
+
+.ItemButton:hover {
+  background-color: rgb(255, 153, 0);
+}
+
+.Graphic {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10vh;
+}
+.GraphicButton {
+  width: 20vw;
+  height: 10vh;
+  font-size: 3vh;
+  letter-spacing: 0.1em;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.GraphicCaret img {
+  justify-self: left;
+  margin-left: 20%;
+}
+.GraphicBox {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.GraphicItem {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  margin-bottom: 2%;
+}
+.GraphicItem div {
+  width: 70%;
+}
+.GraphicItem img {
+  width: 30%;
+  justify-self: right;
+}
+.JobCaretPortfolio {
+  width: 2%;
+  transform: rotate(90deg);
+  margin-left: 10%;
+}
+.JobCaretTurnPortfolio {
+  width: 2%;
+  margin-left: 10%;
+}

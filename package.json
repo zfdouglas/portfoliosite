@@ -24,6 +24,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "typings": "./dist/index.d.ts",
   "browserslist": {
     "production": [
       ">0.2%",

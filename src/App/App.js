@@ -3,6 +3,7 @@ import logo from "../img/realzfd3.png";
 import AboutDesk from "../AboutDesk/AboutDesk.js";
 import ResumeDesk from "../Resume/ResumeDesk.js";
 import ContactDesk from "../Contact/ContactDesk.tsx";
+import Portfolio from "../Portfolio/Portfolio.tsx";
 import "./App.css";
 
 class App extends React.Component {
@@ -45,7 +46,15 @@ class App extends React.Component {
             >
               Resume
             </div>
-            <div>Portfolio</div>
+            <div
+              onClick={() => {
+                this.setState({
+                  view: "portfolio",
+                });
+              }}
+            >
+              Portfolio
+            </div>
             <div
               onClick={() => {
                 this.setState({
@@ -81,6 +90,7 @@ class App extends React.Component {
         {this.state.view === "resume" && <ResumeDesk />}
         {this.state.view === "about" && <AboutDesk />}
         {this.state.view === "contact" && <ContactDesk />}
+        {this.state.view === "portfolio" && <Portfolio />}
       </div>
     );
   }

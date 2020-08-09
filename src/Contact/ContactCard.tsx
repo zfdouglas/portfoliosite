@@ -2,7 +2,7 @@ import * as React from "react";
 import "./ContactDesk.css";
 
 function ContactCard(ContactProps: any) {
-  function actionChanger(Action: Any) {
+  function actionChanger(Action: any) {
     if (Action === "email") {
       return (window.location.href = "mailto:zacharyfdouglas@gmail.com");
     } else {

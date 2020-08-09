@@ -6,6 +6,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: rgb(44, 43, 43);
+  margin-bottom: 5vh;
 }
 .SkillPanel {
   display: flex;
@@ -77,6 +78,10 @@ h2 {
 .UmassInfo {
   width: 75%;
   text-align: left;
+}
+.MiscInfo {
+  display: flex;
+  flex-direction: row;
 }
 .Education p {
   margin: 2%;
