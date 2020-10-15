@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfoliosite/static/css/main.ae56c577.chunk.css",
+    "main.js": "/portfoliosite/static/js/main.35ff2ff3.chunk.js",
+    "main.js.map": "/portfoliosite/static/js/main.35ff2ff3.chunk.js.map",
+    "runtime-main.js": "/portfoliosite/static/js/runtime-main.732b97db.js",
+    "runtime-main.js.map": "/portfoliosite/static/js/runtime-main.732b97db.js.map",
+    "static/js/2.63843126.chunk.js": "/portfoliosite/static/js/2.63843126.chunk.js",
+    "static/js/2.63843126.chunk.js.map": "/portfoliosite/static/js/2.63843126.chunk.js.map",
+    "index.html": "/portfoliosite/index.html",
+    "precache-manifest.4b3b9bc533d43e73670360aedaffe854.js": "/portfoliosite/precache-manifest.4b3b9bc533d43e73670360aedaffe854.js",
+    "service-worker.js": "/portfoliosite/service-worker.js",
+    "static/css/main.ae56c577.chunk.css.map": "/portfoliosite/static/css/main.ae56c577.chunk.css.map",
+    "static/js/2.63843126.chunk.js.LICENSE.txt": "/portfoliosite/static/js/2.63843126.chunk.js.LICENSE.txt",
+    "static/media/CaptnBill.png": "/portfoliosite/static/media/CaptnBill.a7f7aa43.png",
+    "static/media/LastSchanceext.png": "/portfoliosite/static/media/LastSchanceext.99186ab8.png",
+    "static/media/Roomba.png": "/portfoliosite/static/media/Roomba.bd980951.png",
+    "static/media/caret.svg": "/portfoliosite/static/media/caret.347df0b7.svg",
+    "static/media/disney.PNG": "/portfoliosite/static/media/disney.59d7df33.PNG",
+    "static/media/lblogolong2.png": "/portfoliosite/static/media/lblogolong2.17049731.png",
+    "static/media/App.css": "/portfoliosite/static/media/leafbackgroundsmall.92d8a602.jpg",
+    "static/media/mecircle.png": "/portfoliosite/static/media/mecircle.7a3e0684.png",
+    "static/media/munin.PNG": "/portfoliosite/static/media/munin.c522b631.PNG",
+    "static/media/realzfd3.png": "/portfoliosite/static/media/realzfd3.a907a2a2.png",
+    "static/media/theland2.png": "/portfoliosite/static/media/theland2.ab4ab6e5.png",
+    "static/media/thumbnail.png": "/portfoliosite/static/media/thumbnail.fb166feb.png",
+    "static/media/umassseal.png": "/portfoliosite/static/media/umassseal.03f98ba9.png",
+    "static/media/wellfed.PNG": "/portfoliosite/static/media/wellfed.b4bb368d.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.732b97db.js",
+    "static/js/2.63843126.chunk.js",
+    "static/css/main.ae56c577.chunk.css",
+    "static/js/main.35ff2ff3.chunk.js"
+  ]
+}
